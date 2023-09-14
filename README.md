@@ -27,6 +27,7 @@ git clone https://github.com/MuxaWinLol/AutoSelect-SMBU
 Или напрямую скачайте и распакуйте zip-архив с [гитхаб](https://github.com/MuxaWinLol/AutoSelect-SMBU/archive/refs/heads/master.zip)
 
 
+
 #### Скачиваем необходимые библиотеки.
 
 
@@ -58,15 +59,15 @@ pip install -r requirements.txt
 _Открываем консоль разработчика_ (обычно `F12` или `Ctrl + Shift + C`)
 Сверху выбираем вкладку `Network` или `сеть`:
 
-![[Pasted image 20230914223202.png]]
+![im1](https://github.com/MuxaWinLol/AutoSelect-SMBU/assets/56235893/daad5884-87be-4d8e-969f-709a1f6790e2)
 
 Далее, не закрывая панели, нажимаем на нужном курсе кнопку `Выбрать` и после во всплывающем окне `Ок`:
 
-![[Pasted image 20230914223644.png]]
+![im2](https://github.com/MuxaWinLol/AutoSelect-SMBU/assets/56235893/ca2ee90f-7ebd-4a63-ab24-7ccc3926a44a)
 
 Справа в панели разработчика должен был появиться запрос `add` — нажимаем на него и переходим в раздел `Headers` или `Заголовки`:
 
-![[Pasted image 20230914224620.png]]
+![im3](https://github.com/MuxaWinLol/AutoSelect-SMBU/assets/56235893/22018980-a74e-4116-80bb-b5bc0f170552)
 
 Отсюда копируем и вставляем в программу значения, соответствующие полям
 - `Authorization` (номер 1)
@@ -75,7 +76,7 @@ _Открываем консоль разработчика_ (обычно `F12`
 
 Затем переходим в раздел `Payload` или `Полезные данные`:
 
-![[Pasted image 20230914225400.png]]
+![im4](https://github.com/MuxaWinLol/AutoSelect-SMBU/assets/56235893/1bf9e356-48b6-42bd-a128-3acf25ee79ce)
 
 Вписываем в программу значения, соответствующие полям
 - `clazzType`
