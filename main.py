@@ -40,8 +40,8 @@ def add_to_activity(_authorization: str, _cookie: str, _batchid: str, _data: dic
 if __name__ == '__main__':
     start_time = datetime.fromisoformat(input('Время в формате <ГГГГ-ММ-ДД ЧЧ:ММ:СС>:') + '+08:00')
     authorization = input('authorization: ')
-    cookie = input('cookie: ')
     batchid = input('batchid: ')
+    cookie = input('cookie: ')
 
     print()
 
